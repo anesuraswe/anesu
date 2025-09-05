@@ -210,6 +210,9 @@ button {
 .center {
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center; 
+
 }
 
 .header {
@@ -270,7 +273,9 @@ main {
 
 .about__desc,
 .about__contact {
-  margin-top: 2.4em;
+  margin: 2rem auto 0 auto; /* top | right | bottom | left */
+  text-align: center;
+  
 }
 
 .about .link--icon {
